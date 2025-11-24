@@ -1,4 +1,4 @@
- import { defineConfig, devices } from '@playwright/test';
+import { defineConfig, devices } from '@playwright/test';
 import * as dotenv from 'dotenv';
 // See https://github.com/motdotla/dotenv
 dotenv.config();
@@ -52,14 +52,14 @@ export default defineConfig({
 
 	/* Configure projects for major browsers */
 	projects: [
-		{
+		/* {
 			name: 'chromium',
 			use: { ...devices['Desktop Chrome'], channel: 'chrome' }
-		}
-		// {
-		// 	name: 'firefox',
-		// 	use: { ...devices['Desktop Firefox'] },
-		// },
+		} */
+		{
+		 	name: 'firefox',
+		 	use: { ...devices['Desktop Firefox'] },
+		},
 		//* Test against branded browsers:
 		// {
 		// 	name: 'edge',
