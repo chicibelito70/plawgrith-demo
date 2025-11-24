@@ -60,7 +60,7 @@ export class SuperPage {
 		await this.expect(dropdown).not.toBeVisible();
 	}
 	async selectDropdownInput(contextElement: Locator, searchingText: string) {
-		await this.autoinputDropdown(contextElement).fill(searchingText);
+		await this.autoinputDropdown(contextElement).fill(searchingText); 
 		const dropdown = this.dropdown(contextElement);
 		await expect(dropdown).toBeVisible();
 		await dropdown.getByText('Searching').waitFor({ state: 'detached' });
