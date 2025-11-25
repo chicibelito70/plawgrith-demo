@@ -1,4 +1,4 @@
-# Playwright Curso — Proyecto de ejemplo
+# Playwright 
 
 Este repositorio contiene una suite de tests E2E usando Playwright + TypeScript para la aplicación OpenSource OrangeHRM (demo).
 
@@ -19,7 +19,6 @@ Requisitos (local):
 
 Instalación de dependencias:
 ```bash
-cd "c:\Users\chici\Documents\Proyects\automation\playwright-curso"
 npm install
 # Si aún no has instalado navegadores de Playwright:
 npx playwright install
@@ -27,7 +26,7 @@ npx playwright install
 
 Variables de entorno
 --------------------
-La suite espera credenciales para login en variables de entorno. Crea un archivo `.env` en la raíz del proyecto con las siguientes claves (ejemplo):
+La suite espera credenciales para login en variables de entorno. Crea un archivo `.env` en la raíz del proyecto con las siguientes claves:
 
 ```
 ORANGE_USERNAME=Admin
