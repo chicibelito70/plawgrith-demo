@@ -1,4 +1,4 @@
-# Playwright Curso — Proyecto de ejemplo
+# Playwright 
 
 Este repositorio contiene una suite de tests E2E usando Playwright + TypeScript para la aplicación OpenSource OrangeHRM (demo).
 
